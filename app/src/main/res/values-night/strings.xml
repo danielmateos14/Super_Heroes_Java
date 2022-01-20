@@ -1,5 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Super_Heroes_Java</string>
     <string name="tv_title">Super Heroe App</string>
     <string name="et_super_heroe_name">Super Heroe Name</string>
     <string name="et_super_heroe_alter_ego">Super Heroe Alter Ego</string>

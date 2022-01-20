@@ -17,7 +17,7 @@
             android:id="@+id/tv_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Super Heroe App"
+            android:text="@string/tv_title"
             android:textSize="40sp"
             android:textColor="@color/purple_500"
             android:layout_marginBottom="30dp"
@@ -42,7 +42,7 @@
             app:layout_constraintTop_toTopOf="@+id/image_super_heroe"
             android:layout_marginStart="15dp"
             android:layout_marginEnd="15dp"
-            android:hint="Super Heroe Name"/>
+            android:hint="@string/et_super_heroe_name"/>
         <EditText
             android:id="@+id/et_alter_ego_super_heroe"
             android:layout_width="250dp"
@@ -51,7 +51,7 @@
             app:layout_constraintBottom_toBottomOf="@+id/image_super_heroe"
             android:layout_marginStart="15dp"
             android:layout_marginEnd="15dp"
-            android:hint="Super Heroe Alter Ego"/>
+            android:hint="@string/et_super_heroe_alter_ego"/>
         <View
             android:id="@+id/v_line"
             android:layout_width="match_parent"
@@ -63,7 +63,7 @@
             android:id="@+id/tv_bio"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Bio"
+            android:text="@string/tv_super_heroe_bio"
             tools:text="Bio"
             android:textSize="30sp"
             android:textStyle="bold"
@@ -77,12 +77,12 @@
             android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@id/tv_bio"
             android:layout_marginTop="50dp"
-            android:hint="Add info"/>
+            android:hint="@string/et_super_heroe_bio"/>
         <TextView
             android:id="@+id/tv_power"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Power"
+            android:text="@string/tv_power"
             tools:text="Power"
             android:textSize="30sp"
             android:textStyle="bold"
@@ -107,7 +107,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintBottom_toBottomOf="parent"
-            android:text="Save"
+            android:text="@string/btn_save"
             android:textSize="20sp"
             android:layout_marginStart="40dp"
             android:layout_marginEnd="40dp"/>
